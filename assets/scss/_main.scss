@@ -1,12 +1,11 @@
 .container {
   display: flex;
+  flex-wrap: wrap;
 
   margin-bottom: 50px;
   padding: $gutter;
 
   background: rgba($white-color, 0.1);
-
-  flex-wrap: wrap;
 }
 
 .main {
@@ -14,18 +13,16 @@
 
   @media (min-width: $small + 1) {
     flex: 1 0 calc(100% - #{$col-size});
+    order: 3;
 
     padding: 0 $gutter + 5 $gutter $gutter;
-
-    order: 3;
   }
 
   @media (max-width: $small) {
     flex: 1 0 100%;
+    order: 2;
 
     padding: $gutter + 5;
-
-    order: 2;
   }
 
   p {

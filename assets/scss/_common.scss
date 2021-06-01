@@ -9,13 +9,12 @@ html {
 
 body {
   display: flex;
+  align-items: center;
   flex-direction: column;
 
   background: url("../img/background.jpg");
   background-color: #3a3a3a;
   background-position: 50% 0;
-
-  align-items: center;
 }
 
 a {
@@ -51,8 +50,8 @@ li {
 }
 
 .wrapper {
+  flex-grow: 1;
+
   max-width: $large;
   padding: 0 $gutter;
-
-  flex-grow: 1;
 }
