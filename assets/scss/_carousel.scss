@@ -22,7 +22,7 @@
   transition: opacity 0.5s;
 
   opacity: 0;
-  border: 7px solid #ffffff;
+  border: 7px solid $white-color;
   background-image: url(../img/carousel-item-bg.png);
   background-position: 50% 50%;
   background-size: cover;
@@ -82,7 +82,7 @@
   h3 {
     text-transform: uppercase;
 
-    color: #ffffff;
+    color: $white-color;
 
     @media (min-width: $small + 1) {
       margin: $gutter 0;
@@ -104,7 +104,7 @@
   }
 
   p {
-    color: #ffffff;
+    color: $white-color;
 
     @include block-with-text;
 

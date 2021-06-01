@@ -83,7 +83,7 @@
     }
 
     &:hover:not(.active) a {
-      background-color: rgba(#ffffff, 0.2);
+      background-color: rgba($white-color, 0.2);
     }
 
     &.active a {
@@ -128,7 +128,7 @@
 
     transition: all 0.5s;
 
-    background-color: #ffffff;
+    background-color: $white-color;
   }
 
   &.active .menu__btn-row {
